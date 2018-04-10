@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.intro {
+  background: #e55812; /* #ec4e20; */
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-name {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 78px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.intro-blurb {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 1018px) {
+    .intro-blurb {
+        font-size: 24px;
+    }
+    .intro-name {
+      font-size: 40px;
+    }
+    .blurb-title {
+      font-size: 30px !important;
+    }
+    .blurb-intro {
+      font-size: 18px !important;
+      padding-right: 20px !important;
+    }
+
+    .about {
+      flex-wrap: wrap !important;
+      height: 200vh !important;
+    }
+
+    .skills {
+      height: 500vh !important;
+    }
+
+}
+
+.about {
+  background: #222222; /* #0B4354; #353531; */
+  height: 100vh;
+  color: #8a817c;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  }
+
+.profile {
+  /* object-fit: contain; */
+  max-width: 100%;
+  height: 80vh;
+  padding: 20px;
+  border: solid 10px white;
+  border-radius: 6em;
+  margin: 20px;
+
+}
+
+.blurb {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  margin: 40px;
+
+
+  }
+
+.skills {
+  background:  #7FA5BF; /* #006DB3; #ff9505; */
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap !important;
+  border: solid 2px;
+  padding-top: 40px;
+  justify-content: center;
+  }
+
+.skills-icons {
+  margin: 60px;
+  color: #222222;
+}
+
+.progress-bar {
+  background-color: #222222 !important;
+}
+
+#skills-icon {
+  margin-bottom: 40px;
+}
+
+.ul-social {
+  text-align: center;
+  padding-left: 0;
+  padding-top: 40px;
+
+}
+
+.ul-contacts {
+  text-align: center;
+  padding-left: 0;
+
+}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
+
+}
+
+.social:hover {
+  color: #353531;
+}
+
+.li-contacts {
+  display: inline-block;
+  list-style: none;
+  padding: 200px;
+}
+
+.social {
+  opacity: 1;
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+  opacity: 1;
+}
+
+.social-animated {
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+  opacity: 1;
+}
+
+
+#down-arrow {
+  /*position: absolute;
+  width: 100%;*/
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#down-arrow a {
+  color: white;
+}
+
+#down-arrow a:hover {
+  color: #353531;
+}
