@@ -2,11 +2,11 @@ $(document).ready(function() {
 
   //DIAMOND
   // hide diamond element on page load
- $('#diamond').css('opacity', 0);
+ $('#left').css('opacity', 0);
 
- $('#diamond').waypoint(function() {
-     $('#diamond').addClass('bounceInLeft');
-     $('#diamond').css('opacity', 1);
+ $('#left').waypoint(function() {
+     $('#left').addClass('bounceInLeft');
+     $('#left').css('opacity', 1);
  }, { offset: '70%' });
 
  // BRUSH
