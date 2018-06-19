@@ -13,9 +13,9 @@ body {
 }
 
 .intro {
-  background: #e55812; /* rgb(255, 127, 102); #ec4e20; #e55812; */
+  background: #F0CA4D ; /* rgb(255, 127, 102); #ff6201; #ec4e20; #e55812; */
   height: 100vh;
-  color: white;
+  color: #324D5C;
   display: flex;
   flex-direction: column;
 }
@@ -24,20 +24,20 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 78px;
-  color: white;
+  color: #324D5C;
   text-align: center;
   padding-top: 150px;
 }
 
 .intro a href:hover {
-  color: white;
+  color: #324D5C;
 }
 
 .intro-location {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 34px;
-  color: white;
+  color: #324D5C;
   text-align: center;
   padding-top: 0;
 }
@@ -100,7 +100,7 @@ body {
   /* object-fit: contain; */
   width: auto;
   height: 80vh;
-  border: solid 3px #7FA5BF;
+  border: solid 3px #578B6A;
   border-radius: 50px;
   margin: 20px !important;
   padding: 20px !important;
@@ -121,10 +121,10 @@ body {
   font-weight: bold;
 }
 
-  .bigBlurb {
-    font-family: 'Raleway';
-    padding-right: 0;
-    width: 200px;
+.bigBlurb {
+  font-family: 'Raleway';
+  padding-right: 0;
+  width: 200px;
 
   }
 
@@ -135,45 +135,54 @@ body {
   }
 
 .skills {
-  background:  #7FA5BF; /* #006DB3; #ff9505; */
-  height: auto ;
+  background:#578B6A; /* #70a9a1; #006DB3; #c3423f; #45b69c; #7FA5BF; #ff9505; */
+  height: auto;
   display: flex;
   flex-direction: row;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap !important;
   padding-top: 40px;
   justify-content: center;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
   }
 
-.skills-title {
-  background:  #7FA5BF; /* #006DB3; #ff9505; */
-  height: auto ;
+.projects {
+  height: 20vh;
   display: flex;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 40px;
+  filter: gray;
+  -webkit-filter: sepia(1);
+  -webkit-transition: all .4s ease-in-out;
 }
 
-.skills-section-title {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  font-size: 78px;
+.projects:hover {
+  margin: 40px;
+  filter: none;
+  -webkit-filter: sepia(0);
+}
+
+.tech {
   color: #222222;
-  padding-top: 80px;
-  padding-left: 80px;
-  }
+  display: flex;
+  display: row;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
 
 .skills-icons {
   flex: 0 1 auto;
   margin: 60px;
   color: #222222;
-
 }
 
 .contactTitle {
   background:  #222222; /* #0B4354; #353531; */
   height: auto;
-  color: #7FA5BF;
+  color: #578B6A;
   display: flex;
   padding-top: 5vh;
   padding-left: 5vw;
@@ -190,7 +199,7 @@ body {
 .contact {
   background:  #222222; /* #0B4354; #353531; */
   height: 100vh;
-  color: #7FA5BF;
+  color: #578B6A;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -205,7 +214,7 @@ body {
   }
 
 .contactForm h3 {
-  border-bottom: 2px solid #7FA5BF;
+  border-bottom: 2px solid #578B6A;
 }
 
 .contactForm h3:hover {
@@ -214,15 +223,14 @@ body {
 }
 
 .contact a {
-  color: #7FA5BF !important;
+  color: #578B6A !important;
 }
 
 .contact a:hover {
-  color: #7FA5BF !important;
+  color: #578B6A !important;
   text-decoration: none !important;
 
 }
-
 
 .quality {
   text-align: center;
@@ -278,7 +286,7 @@ body {
 }
 
 a:hover {
-  color: white !important;
+  color: #fdf5e6 !important;
 }
 
 .li-contacts {
@@ -290,7 +298,7 @@ a:hover {
 .social {
   opacity: 1;
   font-size: 2em;
-  color: white;
+  color: #324D5C;
   padding: 20px;
   opacity: 1;
 }
@@ -304,11 +312,11 @@ a:hover {
 }
 
 #down-arrow a {
-  color: white;
+  color: #324D5C;
 }
 
 #down-arrow:hover {
-  color: #353531;
+  color: #324D5C !important;
   animation: rubberBand 1s;
 }
 
@@ -319,13 +327,14 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border-top: solid 2px #7FA5BF;
+  border-top: solid 2px #578B6A;
 }
 
 .copyright {
   font-family: 'Raleway', sans-serif;
-  color: #7FA5BF;
+  color: #578B6A;
   font-weight: bold;
   font-size: 16px;
-  padding-top: 2vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
